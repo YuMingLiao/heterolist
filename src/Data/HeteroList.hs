@@ -59,7 +59,8 @@ module Data.HeteroList (
 where
 
 import GHC.Exts (Constraint)
-import Data.Poly (Poly(Poly), IsPoly, GetPolyConstraint)
+import Data.Poly (Poly(Poly))
+import Data.Poly.IsPoly (IsPoly, GetPolyConstraint)
 --import Data.Poly.Functor (PolyFunctor, hmap, PolyFunctorConstraint)
 
 import Data.Proxy (Proxy(Proxy))
